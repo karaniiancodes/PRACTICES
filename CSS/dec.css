@@ -1,0 +1,41 @@
+header{
+    background-color: rgb(103, 250, 70);
+}
+h1{
+    color:blue;
+    text-align:center;
+    font-size: 300%;
+}
+body{
+    background-color: #e8f5e9;
+    font-family: Geneva, Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color:#1b4332;
+}
+h2{
+    color:rgb(14, 130, 64) ;
+    text-transform: uppercase;
+    text-align: center;
+}
+a{
+    color:green;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+a:visited{
+    color:blueviolet;
+}
+img{
+    width: auto;
+    height: auto;
+    border: 3px solid black;
+    max-height: 500px;
+    max-width: 500%;
+}
+figcaption{
+    font-size:small;
+    font-style:italic;
+}
