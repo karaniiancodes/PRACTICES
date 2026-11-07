@@ -18,7 +18,7 @@
           <legend>Personal Information</legend>
           <label for="full-name">Name (required):</label>
           <input type="text" id="full-name" name="name" placeholder="e.g., John Doe" required size="20">
-
+          <br>
           <label for="email">Email address (required):</label>
           <input
             placeholder="example@email.com"
@@ -28,6 +28,7 @@
             name="email"
             size="20"
           />
+          <br>
           <label for="age">Age (optional):</label>
           <input type="number" name="age" id="age" min="3" max="100" />
         </fieldset>
@@ -47,7 +48,7 @@
 
           <input type="checkbox" id="ads" name="choice" value="ads" />
           <label for="ads">Social Media Ads</label>
-
+          <br>
           <input
             type="checkbox"
             id="recommendation"
@@ -55,10 +56,10 @@
             value="recommendation"
           />
           <label for="recommendation">Personal Recommendation</label>
-          
+          <br>
           <input type="checkbox" id="location" name="choice" value="location" />
           <label for="location">Location</label>
-
+          <br>
           <input
             checked
             type="checkbox"
@@ -67,9 +68,12 @@
             value="reputation"
           />
           <label for="reputation">Reputation</label>
-          
+          <br>
           <input type="checkbox" id="price" name="choice" value="price" />
           <label for="price">Price</label>
+          <br>
+          <input type="checkbox" id="other" name="choice" value="other"/>
+          <label for="other">Other</label>
         </fieldset>
 
         <fieldset>
@@ -79,14 +83,18 @@
 
           <select name="service" id="service">
             <option value="poor">Poor</option>
+            <br>
             <option value="satisfactory">Satisfactory</option>
+            <br>
             <option value="good">Good</option>
+            <br>
             <option value="very-good">Very Good</option>
+            <br>
             <option selected value="excellent">Excellent</option>
           </select>
-
+          <br>
           <label for="food">How was the food?</label>
-
+          
           <select name="food" id="food">
             <option value="poor">Poor</option>
             <option value="satisfactory">Satisfactory</option>
