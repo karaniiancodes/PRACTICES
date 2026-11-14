@@ -15,7 +15,7 @@ int main(void)
     s=r*r;
     d=2*r;
 
-    a=area(p,s);
+    a=area(p,s); 
     printf("%f times %d =%.3f\n", p,s,a);
 
     c=circumfrence(p,d);
